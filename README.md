@@ -1,20 +1,16 @@
 # anydoor
-nodejs web server
+静态资源服务器，
 
 ## 安装
 
 '''
-npm i -g anydoor
+clone 本项目
+cd anydoor
+
+node src/index.js启动本地服务，默认3000端口
+
+返回上级功能未实现
+
+服务器支持压缩，缓存和部分获取内容，同时返回正确的mime类型。
 '''
 
-## 使用方法
-
-'''
-anydoor # 把当前文件夹作为静态资源服务器根目录
-
-anydoor -p 8080 # 设置端口号为 8080
-
-anydoor -h localhost # 设置 host 为 localhost
-
-anydoor -d /usr # 设置根目录为 /usr
-'''
